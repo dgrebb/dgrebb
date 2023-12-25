@@ -1,0 +1,37 @@
+name: 🔖 README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+jobs:
+  build:
+    name: 🚧 Building README
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build README.md
+        run: npm run start
+
+      - name: Commit and Push if Changed
+        run: |-
+          git add .
+          git diff
+          git config --global user.email "bot@ss4sp.com"
+          git config --global user.name "dgrebeepboop"
+          git commit -m "docs: auto-update README.md" -a || exit 0
+          git push
