@@ -1,0 +1,23 @@
+{
+  "name": "dgrebb",
+  "version": "1.0.0",
+  "description": "dgrebb GitHub Profile",
+  "main": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "build:watch": "npx tsc-watch",
+    "start": "npm run build && node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "markdown-it": "^14.0.0",
+    "rss-parser": "^3.13.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^13.0.7",
+    "@types/node": "^20.10.5"
+  }
+}
