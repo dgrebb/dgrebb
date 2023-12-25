@@ -7,3 +7,4 @@ I've been building websites since 1999, and am always experimenting with new tec
 I currently work at <a href="https://github.com/comcast" target="_blank">Comcast</a>, and fight for the users.
 
 Be excellent to each other.
+<img style="height: 1px; width: 1px; opacity: 0;" src="https://komarev.com/ghpvc/?username=dgrebb" />
