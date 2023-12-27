@@ -5,9 +5,13 @@
   "main": "src/app.ts",
   "type": "module",
   "scripts": {
+    "dev": "PINBOARD_TOKEN=$(pass pinboard/token) npx tsc-watch --onSuccess \"node build/app.js\"",
     "build": "npx tsc",
-    "build:watch": "npx tsc-watch",
+    "build.watch": "PINBOARD_TOKEN=$(pass pinboard/token) npx tsc-watch",
     "start": "npm run build && node build/app.js",
+    "gen": "node build/app.js",
+    "start.l": "npm run build && PINBOARD_TOKEN=$(pass pinboard/token) node build/app.js",
+    "update": "npx ncu -u --dep dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

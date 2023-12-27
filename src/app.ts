@@ -1,6 +1,6 @@
 import * as fs from "fs";
-import data from './featured-repos.json' assert { type: 'json' };
 import markdownIt from 'markdown-it';
+import data from './featured-repos.json' assert { type: 'json' };
 
 const md = markdownIt({
   html: true, // Enable HTML tags in source
@@ -8,15 +8,17 @@ const md = markdownIt({
   linkify: true // Autoconvert URL-like text to links
 });
 
-import { fetchPostData } from "./fetch/fetchPostData.js";
 import { fetchGitHubData } from "./fetch/fetchGitHubData.js";
+import { fetchGistData } from "./fetch/fetchGistData.js";
+import { fetchPostData } from "./fetch/fetchPostData.js";
+import { fetchPinboardData } from "./fetch/fetchPinboardData.js";
 
 const feedURL = "https://www.dgrebb.com/RSS.xml";
 const featuredRepos: string[] = data.repos;
 
 const ossLearningMaterialRepos = ["deploy-ml-web-workshop", "cl-composable-commerce-workshop"];
 
-const githubUsername = "dgrebb";
+const username = "dgrebb";
 const websiteUrl = "https://www.dgrebb.com";
 const catchafireUrl = "https://philafound.catchafire.org/profiles/732275/";
 const goodreadsUrl = "https://www.goodreads.com/user/show/4857619-dan";
@@ -30,8 +32,8 @@ async function generateMarkdown() {
   const linkedinBadge = `[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-LinkedIn?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1f1f1f&color=A52A2A "LinkedIn Profile")](${linkedinUrl})`;
   const goodreadsBadge = `[![Goodreads Badge](https://img.shields.io/badge/GoodReads-goodreads?style=for-the-badge&logo=goodreads&logoColor=white&labelColor=1f1f1f&color=A52A2A "Goodreads")](${goodreadsUrl})`;
 
-  const githubStatsCardDark = `[![GitHub-Stats-Card-Dark](https://github-readme-stats.vercel.app/api?username=${githubUsername}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=A52A2A&text_color=FFF&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-dark-mode-only)](https://github.com/${githubUsername}/${githubUsername}#gh-dark-mode-only)`;
-  const githubStatsCardLight = `[![GitHub-Stats-Card-Light](https://github-readme-stats.vercel.app/api?username=${githubUsername}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=A52A2A&text_color=474A4E&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-light-mode-only)](https://github.com/${githubUsername}/${githubUsername}#gh-light-mode-only)`;
+  const githubStatsCardDark = `[![GitHub-Stats-Card-Dark](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=A52A2A&text_color=FFF&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-dark-mode-only)](https://github.com/${username}/${username}#gh-dark-mode-only)`;
+  const githubStatsCardLight = `[![GitHub-Stats-Card-Light](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=A52A2A&text_color=474A4E&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-light-mode-only)](https://github.com/${username}/${username}#gh-light-mode-only)`;
 
   const markdownText = `<div align="center">\n
 
@@ -56,22 +58,39 @@ async function generateMarkdown() {
   ---\n
 
   <details>\n
-  <summary><h2 style="display: inline;">Recent Posts</h2></summary>
+  <summary>Recent Posts</summary>
+  <br />\n  
   ${await fetchPostData(feedURL)}
   </details>
 
   ---\n
 
   <details>\n
-  <summary><h2 style="display: inline;">More Projects</h2></summary>\n
-  Other projects I'm working on:\n
-  ${await fetchGitHubData(featuredRepos)}\n
+  <summary>Recent Gists</summary>\n
+  <br />\n  
+  ${await fetchGistData(username, 5)}\n
+  </details>
+
+  ---\n
+
+  <details>\n
+  <summary>More Projects</summary>\n
+  <br />\n  
+  ${await fetchGitHubData(username, featuredRepos)}\n
+  </details>
+
+  ---\n
+
+  <details>\n
+  <summary>Recent Pins</summary>
+  <br />\n  
+  ${await fetchPinboardData(5)}
   </details>
 
   ---\n
 
   <div align="center">\n
-   <a href="https://www.dgrebb.com" target="_blank" rel="noopener noreferrer"><img src="img/favicon.png" width="30" /></a><img style="height: 1px; width: 1px; opacity: 0;" src="https://komarev.com/ghpvc/?username=${githubUsername}" />\n
+   <a href="https://www.dgrebb.com" target="_blank" rel="noopener noreferrer"><img src="img/favicon.png" width="30" /></a><img style="height: 1px; width: 1px; opacity: 0;" src="https://komarev.com/ghpvc/?username=${username}" />\n
   </div>`;
 
   const result = md.render(markdownText);
