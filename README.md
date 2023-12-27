@@ -13,7 +13,10 @@
   </div>
 <hr>
   <details>
-  <summary><h2 style="display: inline;">Recent Posts</h2></summary>
+  <summary>Recent Posts</summary>
+  <br />
+<p>Recent thoughts and ideas:<br>
+<br /></p>
   <ul>
     <li><a href=https://www.dgrebb.com/post/strapi-cms-admin-panel-customization-post-version-4-15-0/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Strapi CMS Admin Panel Customization Post-Version 4.15.0</a> (December 2023)</li><li><a href=https://www.dgrebb.com/post/animating-page-and-view-transitions-with-accessibility-in-mind/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Animating Page and View Transitions with Accessibility in Mind</a> (October 2023)</li><li><a href=https://www.dgrebb.com/post/hello-world/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Hello World</a> (October 2023)</li>
   </ul>
@@ -21,9 +24,27 @@
   </details>
 <hr>
   <details>
-  <summary><h2 style="display: inline;">More Projects</h2></summary>
-<p>Other projects I'm working on:</p>
+  <summary>Recent Gists</summary>
+  <br />
+<p>Handy pieces of code I've found:<br>
+<br /></p>
+  <ul><li><a href=https://gist.github.com/dgrebb/2306be9c4726b893197d9febf8a74d67 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">npm scripts - typescript watch and start app</a></li><li><a href=https://gist.github.com/dgrebb/b41eaf14c3980b44792214d15fd34e5f target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Naked Redirector CloudFront Function</a></li><li><a href=https://gist.github.com/dgrebb/9f0d065e9a2e21db7fefba460ef58a05 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Strapi CMS Custom Dashboard (Almost) Replacement Plugin</a></li><li><a href=https://gist.github.com/dgrebb/e9f026297a284b699d702e2c37cb3b93 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">tailwind base.css</a></li><li><a href=https://gist.github.com/dgrebb/8f8e6dff28520ea4379bd2388f284bed target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Commitizen (tools) config defaults</a></li></ul>
+  </details>
+<hr>
+  <details>
+  <summary>More Projects</summary>
+  <br />
+<p>Other projects I'm working on:<br>
+<br /></p>
   <ul><li><a href=https://github.com/dgrebb/terraform-aws-nightscout target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">dgrebb/terraform-aws-nightscout</a>: Terraform module to install Nightscout on AWS using free-tier infrastructure</li><li><a href=https://github.com/dgrebb/obsidian-github-embeds target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">dgrebb/obsidian-github-embeds</a>: Embed GitHub issues, PRs, and code snippets directly in Obsidian</li></ul>
+  </details>
+<hr>
+  <details>
+  <summary>Recent Pins</summary>
+  <br />
+<p>Bookmarked Links:<br>
+<br /></p>
+  <ul><li><a href=https://blog.bolajiayodeji.com/how-to-create-an-automated-profile-readme-using-nodejs-and-github-actions target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">How to Create an Automated Profile README using Nodejs and GitHub Actions</a></li><li><a href=https://www.davidwparker.com/posts/how-to-make-an-rss-feed-in-sveltekit target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">How to make an RSS feed in SvelteKit | David W Parker</a></li><li><a href=https://scottspence.com/posts/make-an-rss-feed-with-sveltekit#clone-the-project target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Make an RSS Feed for your SvelteKit Project - Scott Spence</a></li><li><a href=https://www.adamsanderson.co.uk/blog/2023-05-29-bring-rss-back target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Adding an RSS feed to a Sveltekit Blog</a></li><li><a href=https://www.section.io/engineering-education/data-encryption-and-decryption-in-node-js-using-crypto/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Data Encryption and Decryption in Node.js using Crypto | Engineering Education (EngEd) Program | Section</a></li></ul>
   </details>
 <hr>
   <div align="center">

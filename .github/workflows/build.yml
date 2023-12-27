@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Build README.md
-        run: npm run start
+        run: npm run build && PINBOARD_TOKEN=${{ secrets.PINBOARD_TOKEN }} npm run gen
 
       - name: Commit and Push if Changed
         run: |-

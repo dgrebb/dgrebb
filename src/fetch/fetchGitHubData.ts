@@ -1,11 +1,9 @@
-export async function fetchGitHubData(repos: Array<string>): Promise<string> {
-  const owner = "dgrebb";
-
+export async function fetchGitHubData(username: string, repos: Array<string>): Promise<string> {
   const list = await Promise.all(
     repos.map(async (repo) => {
-      const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
+      const response = await fetch(`https://api.github.com/repos/${username}/${repo}`);
       if (!response.ok) {
-        throw new Error(`"${owner}/${repo}" not found. Kindy review your list of repositories.`);
+        throw new Error(`"${username}/${repo}" not found. Kindy review your list of repositories.`);
       }
       const data = await response.json();
 
