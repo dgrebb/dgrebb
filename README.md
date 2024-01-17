@@ -8,8 +8,8 @@
 <p>I currently work at <a href="https://github.com/comcast" target="_blank">Comcast</a>, and fight for the users.</p>
 <p>Be excellent to each other.</p>
 <hr>
-<p><a href="https://github.com/dgrebb/dgrebb#gh-dark-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=dgrebb&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Open%20Source%20Stats&amp;title_color=A52A2A&amp;text_color=FFF&amp;icon_color=A52A2A&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-dark-mode-only" alt="GitHub-Stats-Card-Dark"></a></p>
-<p><a href="https://github.com/dgrebb/dgrebb#gh-light-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=dgrebb&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Open%20Source%20Stats&amp;title_color=A52A2A&amp;text_color=474A4E&amp;icon_color=A52A2A&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-light-mode-only" alt="GitHub-Stats-Card-Light"></a></p>
+<p><a href="https://github.com/dgrebb/dgrebb#gh-dark-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=dgrebb&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Stats&amp;title_color=A52A2A&amp;text_color=FFF&amp;icon_color=A52A2A&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-dark-mode-only" alt="GitHub-Stats-Card-Dark"></a></p>
+<p><a href="https://github.com/dgrebb/dgrebb#gh-light-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=dgrebb&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Stats&amp;title_color=A52A2A&amp;text_color=474A4E&amp;icon_color=A52A2A&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-light-mode-only" alt="GitHub-Stats-Card-Light"></a></p>
   </div>
 <hr>
   <details>
