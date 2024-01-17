@@ -1,11 +1,11 @@
 import * as fs from "fs";
-import markdownIt from 'markdown-it';
-import data from './featured-repos.json' assert { type: 'json' };
+import markdownIt from "markdown-it";
+import data from "./featured-repos.json" assert { type: "json" };
 
 const md = markdownIt({
   html: true, // Enable HTML tags in source
   breaks: true, // Convert '\n' in paragraphs into <br>
-  linkify: true // Autoconvert URL-like text to links
+  linkify: true, // Autoconvert URL-like text to links
 });
 
 import { fetchGitHubData } from "./fetch/fetchGitHubData.js";
@@ -15,8 +15,6 @@ import { fetchPinboardData } from "./fetch/fetchPinboardData.js";
 
 const feedURL = "https://www.dgrebb.com/RSS.xml";
 const featuredRepos: string[] = data.repos;
-
-const ossLearningMaterialRepos = ["deploy-ml-web-workshop", "cl-composable-commerce-workshop"];
 
 const username = "dgrebb";
 const websiteUrl = "https://www.dgrebb.com";
@@ -32,8 +30,8 @@ async function generateMarkdown() {
   const linkedinBadge = `[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-LinkedIn?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1f1f1f&color=A52A2A "LinkedIn Profile")](${linkedinUrl})`;
   const goodreadsBadge = `[![Goodreads Badge](https://img.shields.io/badge/GoodReads-goodreads?style=for-the-badge&logo=goodreads&logoColor=white&labelColor=1f1f1f&color=A52A2A "Goodreads")](${goodreadsUrl})`;
 
-  const githubStatsCardDark = `[![GitHub-Stats-Card-Dark](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=A52A2A&text_color=FFF&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-dark-mode-only)](https://github.com/${username}/${username}#gh-dark-mode-only)`;
-  const githubStatsCardLight = `[![GitHub-Stats-Card-Light](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Open%20Source%20Stats&title_color=A52A2A&text_color=474A4E&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-light-mode-only)](https://github.com/${username}/${username}#gh-light-mode-only)`;
+  const githubStatsCardDark = `[![GitHub-Stats-Card-Dark](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Stats&title_color=A52A2A&text_color=FFF&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-dark-mode-only)](https://github.com/${username}/${username}#gh-dark-mode-only)`;
+  const githubStatsCardLight = `[![GitHub-Stats-Card-Light](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Stats&title_color=A52A2A&text_color=474A4E&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-light-mode-only)](https://github.com/${username}/${username}#gh-light-mode-only)`;
 
   const markdownText = `<div align="center">\n
 
