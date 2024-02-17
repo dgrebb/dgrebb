@@ -16,7 +16,6 @@
   <summary>Recent Posts</summary>
   <br />
   <ul>
-    <li><a href=https://www.dgrebb.com/post/strapi-cms-admin-panel-customization-post-version-4-15-0/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Strapi CMS Admin Panel Customization Post-Version 4.15.0</a> (December 2023)</li><li><a href=https://www.dgrebb.com/post/animating-page-and-view-transitions-with-accessibility-in-mind/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Animating Page and View Transitions with Accessibility in Mind</a> (October 2023)</li><li><a href=https://www.dgrebb.com/post/hello-world/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Hello World</a> (October 2023)</li>
   </ul>
   <!-- <p>» <a href="https://www.dgrebb.com/posts" style="color: #A52A2A;">Read more posts</a></p> -->
   </details>
@@ -36,7 +35,7 @@
   <details>
   <summary>Recent Pins</summary>
   <br />
-  <ul><li><a href=https://matthiaskainer.github.io/nested-css-to-flat/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">CSS Nesting Playground</a></li><li><a href=https://github.com/sveltejs/language-tools/blob/master/packages/svelte-check/README.md target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">language-tools/packages/svelte-check/README.md at master · sveltejs/language-tools</a></li><li><a href=https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">GitHub Actions: Transitioning from Node 16 to Node 20 - The GitHub Blog</a></li><li><a href=https://superuser.com/questions/293184/one-gnupg-pgp-key-pair-two-emails target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">One GnuPG/PGP key pair, two emails? - Super User</a></li><li><a href=https://pnpm.io/docker target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Working with Docker | pnpm</a></li></ul>
+  <ul><li><a href=https://community.atlassian.com/t5/Jira-Software-articles/Atlassian-Jira-Docker-for-Apple-M1-processors/ba-p/2120698#U2605047 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Atlassian Jira Docker for Apple M1 processors - Atlassian Community</a></li><li><a href=https://community.spiceworks.com/topic/2492755-birthday-calendars-can-no-longer-be-disabled target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">[SOLVED] Birthday Calendars can no longer be disabled? - Office 365</a></li><li><a href=https://chrispennington.blog/blog/add-spacer-in-macos-dock/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Add Spacers in the macOS Dock</a></li><li><a href=https://github.com/brave/brave-ios/issues/7425 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">How to access dev tools? · Issue #7425 · brave/brave-ios</a></li><li><a href=https://matthiaskainer.github.io/nested-css-to-flat/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">CSS Nesting Playground</a></li></ul>
   </details>
 <hr>
   <div align="center">
