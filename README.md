@@ -16,6 +16,7 @@
   <summary>Recent Posts</summary>
   <br />
   <ul>
+    <li><a href=https://www.dgrebb.com/post/engineering-in-program-management-run-jira-server-in-docker/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Engineering in Program Management — Run Jira Server in Docker</a> (February 2024)</li><li><a href=https://www.dgrebb.com/post/testing-and-debugging-brave-browser-on-i-os/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Testing & Debugging Brave Browser on iOS</a> (February 2024)</li><li><a href=https://www.dgrebb.com/post/strapi-cms-admin-panel-customization-post-version-4-15-0/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Strapi CMS Admin Panel Customization Post-Version 4.15.0</a> (December 2023)</li><li><a href=https://www.dgrebb.com/post/animating-page-and-view-transitions-with-accessibility-in-mind/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Animating Page and View Transitions with Accessibility in Mind</a> (October 2023)</li><li><a href=https://www.dgrebb.com/post/hello-world/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Hello World</a> (October 2023)</li>
   </ul>
   <!-- <p>» <a href="https://www.dgrebb.com/posts" style="color: #A52A2A;">Read more posts</a></p> -->
   </details>
