@@ -12,6 +12,12 @@
 <p><a href="https://github.com/dgrebb/dgrebb#gh-light-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=dgrebb&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Stats&amp;title_color=A52A2A&amp;text_color=474A4E&amp;icon_color=A52A2A&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-light-mode-only" alt="GitHub-Stats-Card-Light"></a></p>
   </div>
 <hr>
+  <div align="center">
+<pre><code>&lt;!--START_SECTION:waka--&gt;
+&lt;!--END_SECTION:waka--&gt;
+</code></pre>
+  </div>
+<hr>
   <details>
   <summary>Recent Posts</summary>
   <br />
@@ -36,7 +42,7 @@
   <details>
   <summary>Recent Pins</summary>
   <br />
-  <ul><li><a href=https://windowsreport.com/microsoft-teams-status-on-power-automate/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">How to update your Microsoft Teams status using Power Automate</a></li><li><a href=https://duncanleung.com/tailwind-css-unknown-at-rule/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Tailwind CSS Unknown at Rule – Duncan Leung</a></li><li><a href=https://gist.github.com/saulbaizman/360d0eb1a01873356bd0348cf0ed9a69 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">multiple github accounts, custom ssh hosts, and git url aliases</a></li><li><a href=https://josh.fail/2022/dump-calendar-app-events-to-json/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Dump Calendar.app events to JSON — josh.fail</a></li><li><a href=https://github.com/vaheqelyan/svelte-grid/issues/114 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Import not working with svelte-typescript · Issue #114 · vaheqelyan/svelte-grid</a></li></ul>
+  <ul><li><a href=https://forum.keyboardmaestro.com/t/show-hide-a-palette-by-pressing-releasing-a-key/30932 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Show/hide a palette by pressing/releasing a key - Questions & Suggestions - Keyboard Maestro Discourse</a></li><li><a href=https://windowsreport.com/microsoft-teams-status-on-power-automate/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">How to update your Microsoft Teams status using Power Automate</a></li><li><a href=https://duncanleung.com/tailwind-css-unknown-at-rule/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Tailwind CSS Unknown at Rule – Duncan Leung</a></li><li><a href=https://gist.github.com/saulbaizman/360d0eb1a01873356bd0348cf0ed9a69 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">multiple github accounts, custom ssh hosts, and git url aliases</a></li><li><a href=https://josh.fail/2022/dump-calendar-app-events-to-json/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Dump Calendar.app events to JSON — josh.fail</a></li></ul>
   </details>
 <hr>
   <div align="center">
