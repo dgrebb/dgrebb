@@ -57,10 +57,10 @@ async function generateMarkdown() {
 
   <div align="center">\n
 
-    <!--START_SECTION:waka-->
-    <!--END_SECTION:waka-->
+    <!--START_SECTION:waka-->\n
+    <!--END_SECTION:waka-->\n\n
 
-  </div>
+  </div>\n
 
   --- \n
 
