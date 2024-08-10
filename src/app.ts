@@ -55,6 +55,15 @@ async function generateMarkdown() {
 
   ---\n
 
+  <div align="center">\n
+
+    <!--START_SECTION:waka-->
+    <!--END_SECTION:waka-->
+
+  </div>
+
+  --- \n
+
   <details>\n
   <summary>Recent Posts</summary>
   <br />\n  

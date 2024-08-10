@@ -18,5 +18,5 @@ export async function fetchPostData(url: string): Promise<string> {
   <ul>
     ${list.join("")}
   </ul>\n
-  <!-- <p>» <a href="https://www.dgrebb.com/posts" style="color: #A52A2A;">Read more posts</a></p> -->`
+  <!-- <p>» <a href="https://www.dgrebb.com/posts" style="color: #A52A2A;">Read more posts</a></p> -->`;
 }
