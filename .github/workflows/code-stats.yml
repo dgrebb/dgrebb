@@ -1,4 +1,4 @@
-name: Waka Readme
+name: ⚡️ Code Stats
 
 on:
   # for manual workflow trigger
@@ -9,7 +9,7 @@ on:
 
 jobs:
   update-readme:
-    name: WakaReadme DevMetrics
+    name: Process Stats
     runs-on: ubuntu-latest
     steps:
       - uses: dgrebb/waka-readme@master
