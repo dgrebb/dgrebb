@@ -11,6 +11,7 @@ const md = markdownIt({
 import { fetchGitHubData } from "./fetch/fetchGitHubData.js";
 import { fetchGistData } from "./fetch/fetchGistData.js";
 import { fetchPostData } from "./fetch/fetchPostData.js";
+import { fetchCodingActivity } from "./fetch/fetchStats.js";
 import { fetchPinboardData } from "./fetch/fetchPinboardData.js";
 
 const feedURL = "https://www.dgrebb.com/RSS.xml";
@@ -33,6 +34,48 @@ async function generateMarkdown() {
   const githubStatsCardDark = `[![GitHub-Stats-Card-Dark](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Stats&title_color=A52A2A&text_color=FFF&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-dark-mode-only)](https://github.com/${username}/${username}#gh-dark-mode-only)`;
   const githubStatsCardLight = `[![GitHub-Stats-Card-Light](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Stats&title_color=A52A2A&text_color=474A4E&icon_color=A52A2A&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-light-mode-only)](https://github.com/${username}/${username}#gh-light-mode-only)`;
 
+  let wakaSection = ``;
+
+  try {
+    // Fetch coding activity data
+    const codingData = await fetchCodingActivity();
+
+    // Function to generate the bar with a length based on percentage
+    // Filter out languages with less than 5 minutes of time spent
+    const filteredLanguages = codingData.data.languages.filter(
+      (lang) => lang.total_seconds >= 300
+    );
+
+    // Function to generate the bar with a length based on percentage
+    const generateBar = (percentage: number): string => {
+      const totalBlocks = 20;
+      const filledBlocks = Math.round((percentage / 100) * totalBlocks);
+      return "█".repeat(filledBlocks) + "─".repeat(totalBlocks - filledBlocks);
+    };
+
+    // Adjust the padding for alignment
+    wakaSection = `
+\`\`\`markdown
+Total Time: ${codingData.data.human_readable_total}
+
+${filteredLanguages
+  .map((lang) => {
+    // Ensure the name, hours, and percentage align properly
+    const name = lang.name.padEnd(18);
+    const hours = lang.text.padEnd(15); // Using "text" instead of "hours" to get the full time string
+    const percentage = lang.percent.toFixed(2).padStart(5);
+    return `${name} ${hours} ${generateBar(lang.percent)} ${percentage} %`;
+  })
+  .join("\n")}
+\`\`\`
+`;
+
+    console.log(wakaSection); // For debugging purposes
+    // Here you could inject wakaSection into your markdown, file, etc.
+  } catch (error) {
+    console.error("An error occurred:", error);
+  }
+
   const markdownText = `<div align="center">\n
 
   <span>${websiteBadge} ${linkedinBadge}</span>
@@ -45,23 +88,21 @@ async function generateMarkdown() {
 <p>Building websites since 1999, I never stop experimenting with new technology.</p>
 <p>I currently work at <a href="https://github.com/comcast" target="_blank">Comcast</a>, and fight for the users.</p>
 <p>Be excellent to each other.</p>
-
-  ---\n
-
-  ${githubStatsCardDark}\n
-  ${githubStatsCardLight}\n
-
   </div>\n
 
   ---\n
 
   <div align="center">\n
-
-    <!--START_SECTION:waka-->\n
-    <!--END_SECTION:waka-->\n\n
-
+  <h3>🖥️ Last Seven Days</h3>
+    ${wakaSection}
   </div>\n
+  ---\n
 
+  ---\n
+  <div align="center">\n
+  ${githubStatsCardDark}\n
+  ${githubStatsCardLight}\n
+  </div>\n
   --- \n
 
   <details>\n

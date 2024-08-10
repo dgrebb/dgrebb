@@ -7,23 +7,42 @@
 <p>Building websites since 1999, I never stop experimenting with new technology.</p>
 <p>I currently work at <a href="https://github.com/comcast" target="_blank">Comcast</a>, and fight for the users.</p>
 <p>Be excellent to each other.</p>
-<hr>
-<p><a href="https://github.com/dgrebb/dgrebb#gh-dark-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=dgrebb&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Stats&amp;title_color=A52A2A&amp;text_color=FFF&amp;icon_color=A52A2A&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-dark-mode-only" alt="GitHub-Stats-Card-Dark"></a></p>
-<p><a href="https://github.com/dgrebb/dgrebb#gh-light-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=dgrebb&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Stats&amp;title_color=A52A2A&amp;text_color=474A4E&amp;icon_color=A52A2A&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-light-mode-only" alt="GitHub-Stats-Card-Light"></a></p>
   </div>
 <hr>
   <div align="center">
-<pre><code>&lt;!--START_SECTION:waka--&gt;
+  <h3>🖥️ Last Seven Days</h3>
+<pre><code class="language-markdown">Total Time: 43 hrs 7 mins
 
-&lt;!--END_SECTION:waka--&gt;
+sh                 16 hrs 59 mins  ████████──────────── 38.79 %
+YAML               8 hrs 26 mins   ████──────────────── 19.27 %
+JavaScript         5 hrs 21 mins   ██────────────────── 12.24 %
+JSON               5 hrs 21 mins   ██────────────────── 12.22 %
+TypeScript         2 hrs 1 min     █───────────────────  4.62 %
+Markdown           1 hr 37 mins    █───────────────────  3.70 %
+Svelte             1 hr 4 mins     ────────────────────  2.45 %
+Sieve              46 mins         ────────────────────  1.75 %
+Other              39 mins         ────────────────────  1.51 %
+Bash               26 mins         ────────────────────  1.00 %
+CSS                14 mins         ────────────────────  0.56 %
+SSH Config         11 mins         ────────────────────  0.42 %
+Git                9 mins          ────────────────────  0.36 %
+TSConfig           8 mins          ────────────────────  0.31 %
+Text               6 mins          ────────────────────  0.24 %
+Git Config         5 mins          ────────────────────  0.23 %
 </code></pre>
+  </div>
+<hr>
+<hr>
+  <div align="center">
+<p><a href="https://github.com/dgrebb/dgrebb#gh-dark-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=dgrebb&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Stats&amp;title_color=A52A2A&amp;text_color=FFF&amp;icon_color=A52A2A&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-dark-mode-only" alt="GitHub-Stats-Card-Dark"></a></p>
+<p><a href="https://github.com/dgrebb/dgrebb#gh-light-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=dgrebb&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;card_width=600&amp;custom_title=GitHub%20Stats&amp;title_color=A52A2A&amp;text_color=474A4E&amp;icon_color=A52A2A&amp;hide=contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;theme=transparent#gh-light-mode-only" alt="GitHub-Stats-Card-Light"></a></p>
   </div>
 <hr>
   <details>
   <summary>Recent Posts</summary>
   <br />
   <ul>
-    <li><a href=https://www.dgrebb.com/post/integrating-svelte-kit-with-jira-for-efficient-cross-project-releases/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Integrating SvelteKit with Jira for Efficient Cross-Project Releases</a> (April 2024)</li><li><a href=https://www.dgrebb.com/post/engineering-in-program-management-run-jira-server-in-docker/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Engineering in Program Management — Run Jira Server in Docker</a> (February 2024)</li><li><a href=https://www.dgrebb.com/post/testing-and-debugging-brave-browser-on-i-os/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Testing & Debugging Brave Browser on iOS</a> (February 2024)</li><li><a href=https://www.dgrebb.com/post/strapi-cms-admin-panel-customization-post-version-4-15-0/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Strapi CMS Admin Panel Customization Post-Version 4.15.0</a> (December 2023)</li><li><a href=https://www.dgrebb.com/post/animating-page-and-view-transitions-with-accessibility-in-mind/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Animating Page and View Transitions with Accessibility in Mind</a> (October 2023)</li>
+    <li><a href=https://www.dgrebb.com/post/integrating-svelte-kit-with-jira-for-efficient-cross-project-releases/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Integrating SvelteKit with Jira for Efficient Cross-Project Releases</a> (April 2024)</li><li><a href=https://www.dgrebb.com/post/engineering-in-program-management-run-jira-server-in-docker/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Engineering in Program Management — Run Jira Server in Docker</a> (February 2024)</li><li><a href=https://www.dgrebb.com/post/testing-and-debugging-brave-browser-on-i-os/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Testing & Debugging Brave Browser on iOS</a> (January 2024)</li><li><a href=https://www.dgrebb.com/post/strapi-cms-admin-panel-customization-post-version-4-15-0/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Strapi CMS Admin Panel Customization Post-Version 4.15.0</a> (December 2023)</li><li><a href=https://www.dgrebb.com/post/animating-page-and-view-transitions-with-accessibility-in-mind/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Animating Page and View Transitions with Accessibility in Mind</a> (October 2023)</li>
   </ul>
   <!-- <p>» <a href="https://www.dgrebb.com/posts" style="color: #A52A2A;">Read more posts</a></p> -->
   </details>

@@ -5,23 +5,23 @@
   "main": "src/app.ts",
   "type": "module",
   "scripts": {
-    "dev": "PINBOARD_TOKEN=$(pass pinboard/token) npx tsc-watch --onSuccess \"node build/app.js\"",
+    "dev": "PINBOARD_TOKEN=$(pass pinboard/token) WAKATIME_KEY=$(pass wakatime/api_key) npx tsc-watch --onSuccess \"node build/app.js\"",
     "build": "npx tsc",
-    "build.watch": "PINBOARD_TOKEN=$(pass pinboard/token) npx tsc-watch",
+    "build.watch": "PINBOARD_TOKEN=$(pass pinboard/token) WAKATIME_KEY=$(pass wakatime/api_key) npx tsc-watch",
     "start": "npm run build && node build/app.js",
     "gen": "node build/app.js",
-    "start.l": "npm run build && PINBOARD_TOKEN=$(pass pinboard/token) node build/app.js",
+    "start.l": "npm run build && PINBOARD_TOKEN=$(pass pinboard/token) WAKATIME_KEY=$(pass wakatime/api_key) node build/app.js",
     "update": "npx ncu -u --dep dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
-    "markdown-it": "^14.0.0",
+    "markdown-it": "^14.1.0",
     "rss-parser": "^3.13.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
-    "@types/markdown-it": "^13.0.7",
-    "@types/node": "^20.10.5"
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^20.14.15"
   }
 }
