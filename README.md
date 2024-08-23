@@ -11,18 +11,19 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 13 hrs 20 mins
+<pre><code class="language-markdown">Total Time: 14 hrs 32 mins
 
-Svelte             4 hrs 31 mins   ███████───────────── 33.08 %
-sh                 2 hrs 44 mins   ████──────────────── 20.07 %
-TypeScript         2 hrs 9 mins    ███───────────────── 15.77 %
-CSS                1 hr 31 mins    ██────────────────── 11.16 %
-Bash               1 hr 1 min      █───────────────────  7.45 %
-Sieve              37 mins         █───────────────────  4.60 %
-Other              20 mins         ────────────────────  2.44 %
-Markdown           17 mins         ────────────────────  2.12 %
-JSON               10 mins         ────────────────────  1.30 %
-YAML               6 mins          ────────────────────  0.75 %
+Svelte             5 hrs 47 mins   ████████──────────── 38.03 %
+sh                 2 hrs 17 mins   ███───────────────── 15.00 %
+TypeScript         1 hr 45 mins    ██────────────────── 11.49 %
+CSS                1 hr 31 mins    ██────────────────── 10.01 %
+Bash               1 hr 5 mins     █───────────────────  7.16 %
+JavaScript         43 mins         █───────────────────  4.70 %
+Other              41 mins         █───────────────────  4.58 %
+JSON               22 mins         ────────────────────  2.48 %
+Markdown           19 mins         ────────────────────  2.08 %
+YAML               13 mins         ────────────────────  1.45 %
+Sieve              11 mins         ────────────────────  1.31 %
 </code></pre>
   </div>
 <hr>
@@ -44,7 +45,7 @@ YAML               6 mins          ───────────────
   <details>
   <summary>Recent Gists</summary>
   <br />
-  <ul><li><a href=https://gist.github.com/dgrebb/a2dba6f9a06e43710d5e8f7d9038d96a target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Git `gcn!` alias — amend the last commit without prompting to edit or running git hooks</a></li><li><a href=https://gist.github.com/dgrebb/6e1956a7ddef34a81f036a1e1f8a88b5 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Commitizen config customization in package.json</a></li><li><a href=https://gist.github.com/dgrebb/3d4063ed75e6cbbb3fa72fae1381a687 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">docker burn </a></li><li><a href=https://gist.github.com/dgrebb/c5261600aeff660c04be3edef26ee8a6 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Obsidian Web Clipper Bookmarklet to save articles and pages from the web (for Safari, Chrome, Firefox, and mobile browsers)</a></li><li><a href=https://gist.github.com/dgrebb/b5e984bcdbb95a5dda7392401b50f607 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Forget about your worries and your strife — have a contrast calculator figure out the best color to use against another (black or white).</a></li></ul>
+  <ul><li><a href=https://gist.github.com/dgrebb/6924ded1cfee12f197dd84901b05dbf3 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">SvelteKit multi-alias Generator</a></li><li><a href=https://gist.github.com/dgrebb/a2dba6f9a06e43710d5e8f7d9038d96a target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Git `gcn!` alias — amend the last commit without prompting to edit or running git hooks</a></li><li><a href=https://gist.github.com/dgrebb/6e1956a7ddef34a81f036a1e1f8a88b5 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Commitizen config customization in package.json</a></li><li><a href=https://gist.github.com/dgrebb/3d4063ed75e6cbbb3fa72fae1381a687 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">docker burn </a></li><li><a href=https://gist.github.com/dgrebb/c5261600aeff660c04be3edef26ee8a6 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Obsidian Web Clipper Bookmarklet to save articles and pages from the web (for Safari, Chrome, Firefox, and mobile browsers)</a></li></ul>
   </details>
 <hr>
   <details>
