@@ -11,21 +11,22 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 23 hrs 6 mins
+<pre><code class="language-markdown">Total Time: 25 hrs 41 mins
 
-Svelte             13 hrs 30 mins  ███████████───────── 55.57 %
-sh                 2 hrs 52 mins   ██────────────────── 11.82 %
-CSS                1 hr 33 mins    █───────────────────  6.43 %
-JavaScript         1 hr 21 mins    █───────────────────  5.58 %
-Other              1 hr 12 mins    █───────────────────  4.96 %
-JSON               1 hr 7 mins     █───────────────────  4.60 %
-Bash               43 mins         █───────────────────  2.99 %
-Sieve              23 mins         ────────────────────  1.62 %
-YAML               21 mins         ────────────────────  1.48 %
-Markdown           18 mins         ────────────────────  1.26 %
-Diff               15 mins         ────────────────────  1.04 %
-TypeScript         14 mins         ────────────────────  1.01 %
-HTML               5 mins          ────────────────────  0.39 %
+Svelte             13 hrs 44 mins  ██████████────────── 51.10 %
+sh                 3 hrs 44 mins   ███───────────────── 13.90 %
+CSS                1 hr 34 mins    █───────────────────  5.85 %
+JavaScript         1 hr 21 mins    █───────────────────  5.04 %
+Other              1 hr 12 mins    █───────────────────  4.49 %
+JSON               1 hr 8 mins     █───────────────────  4.27 %
+YAML               1 hr 1 min      █───────────────────  3.81 %
+Bash               43 mins         █───────────────────  2.70 %
+Markdown           32 mins         ────────────────────  2.01 %
+Sieve              27 mins         ────────────────────  1.71 %
+TypeScript         22 mins         ────────────────────  1.37 %
+Docker             20 mins         ────────────────────  1.29 %
+Diff               15 mins         ────────────────────  0.96 %
+HTML               5 mins          ────────────────────  0.35 %
 </code></pre>
   </div>
 <hr>
@@ -39,7 +40,7 @@ HTML               5 mins          ───────────────
   <summary>Recent Posts</summary>
   <br />
   <ul>
-    <li><a href=https://www.dgrebb.com/post/integrating-svelte-kit-with-jira-for-efficient-cross-project-releases/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Integrating SvelteKit with Jira for Efficient Cross-Project Releases</a> (April 2024)</li><li><a href=https://www.dgrebb.com/post/engineering-in-program-management-run-jira-server-in-docker/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Engineering in Program Management — Run Jira Server in Docker</a> (February 2024)</li><li><a href=https://www.dgrebb.com/post/testing-and-debugging-brave-browser-on-i-os/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Testing & Debugging Brave Browser on iOS</a> (February 2024)</li><li><a href=https://www.dgrebb.com/post/strapi-cms-admin-panel-customization-post-version-4-15-0/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Strapi CMS Admin Panel Customization Post-Version 4.15.0</a> (December 2023)</li><li><a href=https://www.dgrebb.com/post/animating-page-and-view-transitions-with-accessibility-in-mind/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Animating Page and View Transitions with Accessibility in Mind</a> (October 2023)</li>
+    <li><a href=https://www.dgrebb.com/post/dockerizing-jira-10/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Engineering in Program Management Part II — Dockerizing Jira 10: The SQL You’ve Been Waiting For</a> (August 2024)</li><li><a href=https://www.dgrebb.com/post/integrating-svelte-kit-with-jira-for-efficient-cross-project-releases/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Integrating SvelteKit with Jira for Efficient Cross-Project Releases</a> (April 2024)</li><li><a href=https://www.dgrebb.com/post/engineering-in-program-management-run-jira-server-in-docker/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Engineering in Program Management — Run Jira Server in Docker</a> (February 2024)</li><li><a href=https://www.dgrebb.com/post/testing-and-debugging-brave-browser-on-i-os/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Testing & Debugging Brave Browser on iOS</a> (February 2024)</li><li><a href=https://www.dgrebb.com/post/strapi-cms-admin-panel-customization-post-version-4-15-0/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Strapi CMS Admin Panel Customization Post-Version 4.15.0</a> (December 2023)</li>
   </ul>
   <!-- <p>» <a href="https://www.dgrebb.com/posts" style="color: #A52A2A;">Read more posts</a></p> -->
   </details>
