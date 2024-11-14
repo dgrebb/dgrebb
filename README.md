@@ -11,9 +11,10 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 10 mins
+<pre><code class="language-markdown">Total Time: 39 mins
 
-Text               5 mins          █████████─────────── 46.96 %
+Text               22 mins         ███████████───────── 56.88 %
+TypeScript         8 mins          ████──────────────── 20.94 %
 </code></pre>
   </div>
 <hr>
