@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "PINBOARD_TOKEN=$(pass pinboard/token) WAKATIME_KEY=$(pass wakatime/api_key) npx tsc-watch --onSuccess \"node build/app.js\"",
-    "build": "npx tsc",
+    "build": "npx tsc && cp src/featured-repos.json build/featured-repos.json",
     "build.watch": "PINBOARD_TOKEN=$(pass pinboard/token) WAKATIME_KEY=$(pass wakatime/api_key) npx tsc-watch",
     "start": "npm run build && node build/app.js",
     "gen": "node build/app.js",
@@ -15,13 +15,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.2",
     "markdown-it": "^14.1.0",
     "rss-parser": "^3.13.0",
-    "typescript": "^5.5.4"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
-    "@types/node": "^20.14.15"
+    "@types/node": "^22.18.10"
   }
 }
