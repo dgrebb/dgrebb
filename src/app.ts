@@ -81,8 +81,8 @@ ${filteredLanguages
 
   const markdownText = `<div align="center">\n
 
-  <span>${websiteBadge}&nbsp;&nbsp;&nbsp;${linkedinBadge}</span><br>
-  <span>${goodreadsBadge}&nbsp;&nbsp;&nbsp;${pinboardBadge}&nbsp;&nbsp;&nbsp;${catchafireBadge}</span>\n
+  <span>${websiteBadge}&nbsp;&nbsp;${linkedinBadge}</span><br>
+  <span>${goodreadsBadge}&nbsp;&nbsp;${pinboardBadge}&nbsp;&nbsp;${catchafireBadge}</span>\n
 
   ---\n
 
