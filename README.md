@@ -10,21 +10,21 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 26 hrs 20 mins
+<pre><code class="language-markdown">Total Time: 24 hrs 15 mins
 
-Svelte             9 hrs 53 mins   ███████───────────── 36.61 %
-TypeScript         4 hrs 12 mins   ███───────────────── 15.59 %
-JSON               3 hrs 33 mins   ███───────────────── 13.20 %
-Bash               2 hrs 53 mins   ██────────────────── 10.71 %
-TOML               1 hr 58 mins    █───────────────────  7.32 %
-CSS                1 hr 24 mins    █───────────────────  5.24 %
-JavaScript         51 mins         █───────────────────  3.17 %
-YAML               47 mins         █───────────────────  2.95 %
-Other              39 mins         ────────────────────  2.42 %
-Sieve              22 mins         ────────────────────  1.40 %
-TSConfig           7 mins          ────────────────────  0.49 %
-INI                6 mins          ────────────────────  0.40 %
-Markdown           5 mins          ────────────────────  0.34 %
+Svelte             9 hrs 53 mins   ████████──────────── 39.80 %
+TypeScript         4 hrs 12 mins   ███───────────────── 16.95 %
+JSON               3 hrs 33 mins   ███───────────────── 14.32 %
+Bash               1 hr 51 mins    ██──────────────────  7.50 %
+CSS                1 hr 24 mins    █───────────────────  5.70 %
+TOML               55 mins         █───────────────────  3.73 %
+JavaScript         51 mins         █───────────────────  3.44 %
+YAML               47 mins         █───────────────────  3.20 %
+Other              34 mins         ────────────────────  2.29 %
+Sieve              22 mins         ────────────────────  1.52 %
+TSConfig           7 mins          ────────────────────  0.53 %
+INI                6 mins          ────────────────────  0.44 %
+Markdown           5 mins          ────────────────────  0.37 %
 </code></pre>
   </div>
 <hr>
@@ -58,7 +58,7 @@ Markdown           5 mins          ───────────────
   <details>
   <summary>Recent Pins</summary>
   <br />
-  <ul><li><a href=https://www.sveltelab.dev/7zwuq5pg8953ir8 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Dynamic Navigation: route-based navigation with view transitions - SvelteLab</a></li><li><a href=https://warpfivefans.com/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Home | Warpfive Fans |Precision Stirling Engine Stove Fans</a></li><li><a href=https://diataxis.fr/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Diátaxis</a></li><li><a href=https://github.com/danielmeppiel/apm target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">danielmeppiel/apm: Agent Package Manager</a></li><li><a href=https://danielmeppiel.github.io/awesome-ai-native/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">GitHub Copilot Mastery with AI Native Development | AI Native Development Guide</a></li></ul>
+  <ul><li><a href=https://github.com/tw93/Mole target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">tw93/Mole: 🐹 Deep clean and optimize your Mac.</a></li><li><a href=https://www.sveltelab.dev/7zwuq5pg8953ir8 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Dynamic Navigation: route-based navigation with view transitions - SvelteLab</a></li><li><a href=https://warpfivefans.com/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Home | Warpfive Fans |Precision Stirling Engine Stove Fans</a></li><li><a href=https://diataxis.fr/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Diátaxis</a></li><li><a href=https://github.com/danielmeppiel/apm target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">danielmeppiel/apm: Agent Package Manager</a></li></ul>
   </details>
 <hr>
   <div align="center">
