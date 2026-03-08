@@ -10,21 +10,22 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 46 hrs 2 mins
+<pre><code class="language-markdown">Total Time: 48 hrs 11 mins
 
-Svelte             27 hrs 52 mins  ████████████──────── 59.49 %
-TypeScript         8 hrs 31 mins   ████──────────────── 18.19 %
-Markdown           2 hrs 47 mins   █───────────────────  5.95 %
-JavaScript         1 hr 45 mins    █───────────────────  3.77 %
-Bash               1 hr 44 mins    █───────────────────  3.73 %
-CSS                1 hr 2 mins     ────────────────────  2.21 %
-JSON               57 mins         ────────────────────  2.03 %
-Other              48 mins         ────────────────────  1.74 %
-Docker             30 mins         ────────────────────  1.09 %
-HTML               17 mins         ────────────────────  0.62 %
-YAML               13 mins         ────────────────────  0.48 %
-Makefile           9 mins          ────────────────────  0.32 %
-Python             8 mins          ────────────────────  0.31 %
+Svelte             27 hrs 57 mins  ███████████───────── 55.74 %
+TypeScript         8 hrs 56 mins   ████──────────────── 17.81 %
+Markdown           2 hrs 47 mins   █───────────────────  5.56 %
+JSON               2 hrs 2 mins    █───────────────────  4.07 %
+Other              1 hr 57 mins    █───────────────────  3.92 %
+Bash               1 hr 55 mins    █───────────────────  3.84 %
+JavaScript         1 hr 45 mins    █───────────────────  3.52 %
+CSS                1 hr 2 mins     ────────────────────  2.06 %
+Docker             30 mins         ────────────────────  1.02 %
+YAML               21 mins         ────────────────────  0.72 %
+HTML               17 mins         ────────────────────  0.58 %
+INI                10 mins         ────────────────────  0.34 %
+Makefile           9 mins          ────────────────────  0.30 %
+Python             8 mins          ────────────────────  0.29 %
 </code></pre>
   </div>
 <hr>
