@@ -10,23 +10,23 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 51 hrs 20 mins
+<pre><code class="language-markdown">Total Time: 41 hrs 37 mins
 
-Svelte             28 hrs 9 mins   ██████████────────── 52.04 %
-TypeScript         6 hrs 56 mins   ███───────────────── 12.83 %
-Markdown           4 hrs 15 mins   ██──────────────────  7.88 %
-JSON               3 hrs 26 mins   █───────────────────  6.37 %
-Bash               2 hrs 54 mins   █───────────────────  5.37 %
-Other              2 hrs 46 mins   █───────────────────  5.13 %
-JavaScript         1 hr 50 mins    █───────────────────  3.39 %
-CSS                1 hr 2 mins     ────────────────────  1.93 %
-Docker             41 mins         ────────────────────  1.26 %
-YAML               28 mins         ────────────────────  0.87 %
-Makefile           26 mins         ────────────────────  0.80 %
-INI                19 mins         ────────────────────  0.59 %
-HTML               18 mins         ────────────────────  0.57 %
-Python             15 mins         ────────────────────  0.48 %
-TOML               8 mins          ────────────────────  0.26 %
+Svelte             20 hrs 42 mins  █████████─────────── 46.46 %
+TypeScript         5 hrs 26 mins   ██────────────────── 12.21 %
+Markdown           4 hrs           ██──────────────────  9.01 %
+JSON               3 hrs 22 mins   ██──────────────────  7.58 %
+Bash               3 hrs 3 mins    █───────────────────  6.87 %
+Other              2 hrs 57 mins   █───────────────────  6.62 %
+JavaScript         1 hr 26 mins    █───────────────────  3.25 %
+CSS                55 mins         ────────────────────  2.07 %
+YAML               48 mins         ────────────────────  1.79 %
+Makefile           25 mins         ────────────────────  0.97 %
+Docker             24 mins         ────────────────────  0.92 %
+INI                19 mins         ────────────────────  0.71 %
+Python             15 mins         ────────────────────  0.58 %
+HTML               10 mins         ────────────────────  0.38 %
+TOML               8 mins          ────────────────────  0.32 %
 </code></pre>
   </div>
 <hr>
