@@ -10,22 +10,22 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 34 hrs 9 mins
+<pre><code class="language-markdown">Total Time: 40 hrs 4 mins
 
-Svelte             12 hrs 15 mins  ███████───────────── 32.56 %
-TypeScript         7 hrs 23 mins   ████──────────────── 19.64 %
-Bash               4 hrs           ██────────────────── 10.67 %
-Other              3 hrs 28 mins   ██──────────────────  9.24 %
-JSON               3 hrs 26 mins   ██──────────────────  9.14 %
-Markdown           3 hrs 17 mins   ██──────────────────  8.76 %
-JavaScript         1 hr 1 min      █───────────────────  2.72 %
-YAML               48 mins         ────────────────────  2.15 %
-Docker             27 mins         ────────────────────  1.21 %
-Makefile           27 mins         ────────────────────  1.21 %
-INI                19 mins         ────────────────────  0.85 %
-Python             13 mins         ────────────────────  0.60 %
-TOML               10 mins         ────────────────────  0.49 %
-HTML               9 mins          ────────────────────  0.41 %
+Svelte             12 hrs 10 mins  ██████────────────── 28.03 %
+TypeScript         10 hrs 32 mins  █████─────────────── 24.29 %
+Bash               5 hrs 45 mins   ███───────────────── 13.28 %
+JSON               3 hrs 43 mins   ██──────────────────  8.58 %
+Markdown           3 hrs 22 mins   ██──────────────────  7.76 %
+Other              3 hrs 20 mins   ██──────────────────  7.70 %
+YAML               1 hr 28 mins    █───────────────────  3.40 %
+JavaScript         1 hr 4 mins     ────────────────────  2.49 %
+Makefile           36 mins         ────────────────────  1.40 %
+INI                19 mins         ────────────────────  0.75 %
+Docker             18 mins         ────────────────────  0.72 %
+HTML               12 mins         ────────────────────  0.47 %
+TOML               10 mins         ────────────────────  0.42 %
+Python             10 mins         ────────────────────  0.40 %
 </code></pre>
   </div>
 <hr>
