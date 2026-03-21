@@ -59,7 +59,7 @@ TOML               9 mins          ───────────────
   <details>
   <summary>Recent Pins</summary>
   <br />
-  <ul><li><a href=https://kener.ing/samples target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Grid layout - Kener.ing</a></li><li><a href=https://svelte-put.vnphanquang.com/docs target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Docs | @svelte-put</a></li><li><a href=https://runed.dev/docs?ref=madewithsvelte.com target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Introduction - Runed</a></li><li><a href=https://motion.svelte.page/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Svelte Motion - Animation Library for Svelte</a></li><li><a href=https://teta.so/blog/sveltekit-hooks-middleware-auth-guards target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">SvelteKit Hooks: Middleware, Auth Guards, and Request Handling — Teta Blog</a></li></ul>
+  <ul><li><a href=https://www.sveltelab.dev/?ref=madewithsvelte.com target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Hello World - SvelteLab</a></li><li><a href=https://kener.ing/samples target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Grid layout - Kener.ing</a></li><li><a href=https://svelte-put.vnphanquang.com/docs target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Docs | @svelte-put</a></li><li><a href=https://runed.dev/docs?ref=madewithsvelte.com target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Introduction - Runed</a></li><li><a href=https://motion.svelte.page/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Svelte Motion - Animation Library for Svelte</a></li></ul>
   </details>
 <hr>
   <div align="center">
