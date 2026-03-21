@@ -10,22 +10,22 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 15 hrs 37 mins
+<pre><code class="language-markdown">Total Time: 19 hrs 5 mins
 
-Svelte             3 hrs 25 mins   ████──────────────── 21.19 %
-Bash               2 hrs 44 mins   ███───────────────── 16.98 %
-TypeScript         2 hrs 44 mins   ███───────────────── 16.95 %
-YAML               1 hr 35 mins    ██──────────────────  9.85 %
-Python             1 hr 25 mins    ██──────────────────  8.85 %
-JSON               1 hr 1 min      █───────────────────  6.33 %
-Markdown           57 mins         █───────────────────  5.92 %
-Makefile           33 mins         █───────────────────  3.43 %
-Other              30 mins         █───────────────────  3.15 %
-CSS                14 mins         ────────────────────  1.53 %
-JavaScript         14 mins         ────────────────────  1.51 %
-HTML               13 mins         ────────────────────  1.42 %
-Text               13 mins         ────────────────────  1.37 %
-TOML               9 mins          ────────────────────  0.99 %
+Svelte             4 hrs 31 mins   █████─────────────── 23.21 %
+TypeScript         4 hrs 4 mins    ████──────────────── 20.86 %
+Bash               2 hrs 33 mins   ███───────────────── 13.12 %
+JSON               1 hr 34 mins    ██──────────────────  8.03 %
+Makefile           1 hr 29 mins    ██──────────────────  7.67 %
+Python             1 hr 25 mins    █───────────────────  7.32 %
+YAML               1 hr 23 mins    █───────────────────  7.15 %
+JavaScript         32 mins         █───────────────────  2.80 %
+Markdown           28 mins         ────────────────────  2.47 %
+Other              24 mins         ────────────────────  2.13 %
+CSS                16 mins         ────────────────────  1.44 %
+HTML               16 mins         ────────────────────  1.41 %
+Text               13 mins         ────────────────────  1.13 %
+TOML               9 mins          ────────────────────  0.82 %
 </code></pre>
   </div>
 <hr>
@@ -59,7 +59,7 @@ TOML               9 mins          ───────────────
   <details>
   <summary>Recent Pins</summary>
   <br />
-  <ul><li><a href=https://teta.so/blog/sveltekit-hooks-middleware-auth-guards target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">SvelteKit Hooks: Middleware, Auth Guards, and Request Handling — Teta Blog</a></li><li><a href=https://mainmatter.com/blog/2025/03/11/global-state-in-svelte-5/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Runes and Global state: do's and don'ts | Mainmatter</a></li><li><a href=https://storybook-tailwind-atomic-design.vercel.app/?path=/story/components-atoms-avatar--avatar target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Components / Atoms / Avatar - Avatar ⋅ Storybook</a></li><li><a href=https://storybook.atomiccomponents.com/?path=/story/atoms-button--all-variants target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Atoms / Button - All Variants ⋅ Storybook</a></li><li><a href=https://rgsystemes.github.io/lib-ui/?path=/story/molecules-header--header target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Molecules / Header - Header ⋅ Storybook</a></li></ul>
+  <ul><li><a href=https://svelte-put.vnphanquang.com/docs target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Docs | @svelte-put</a></li><li><a href=https://runed.dev/docs?ref=madewithsvelte.com target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Introduction - Runed</a></li><li><a href=https://motion.svelte.page/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Svelte Motion - Animation Library for Svelte</a></li><li><a href=https://teta.so/blog/sveltekit-hooks-middleware-auth-guards target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">SvelteKit Hooks: Middleware, Auth Guards, and Request Handling — Teta Blog</a></li><li><a href=https://mainmatter.com/blog/2025/03/11/global-state-in-svelte-5/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Runes and Global state: do's and don'ts | Mainmatter</a></li></ul>
   </details>
 <hr>
   <div align="center">
