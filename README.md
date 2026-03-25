@@ -10,22 +10,24 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 27 hrs 10 mins
+<pre><code class="language-markdown">Total Time: 32 hrs 31 mins
 
-Svelte             8 hrs 5 mins    ██████────────────── 29.56 %
-TypeScript         4 hrs 52 mins   ████──────────────── 17.80 %
-JSON               3 hrs 32 mins   ███───────────────── 12.95 %
-Bash               2 hrs 51 mins   ██────────────────── 10.44 %
-Makefile           1 hr 54 mins    █───────────────────  6.97 %
-Python             1 hr 40 mins    █───────────────────  6.11 %
-YAML               1 hr 18 mins    █───────────────────  4.79 %
-CSS                45 mins         █───────────────────  2.80 %
-Markdown           44 mins         █───────────────────  2.72 %
-JavaScript         31 mins         ────────────────────  1.92 %
-Text               25 mins         ────────────────────  1.53 %
-Other              13 mins         ────────────────────  0.82 %
-HTML               13 mins         ────────────────────  0.79 %
-TOML               8 mins          ────────────────────  0.54 %
+Svelte             8 hrs 30 mins   █████─────────────── 25.83 %
+TypeScript         5 hrs 11 mins   ███───────────────── 15.77 %
+JSON               5 hrs 3 mins    ███───────────────── 15.32 %
+Bash               4 hrs 6 mins    ██────────────────── 12.46 %
+Makefile           2 hrs 10 mins   █───────────────────  6.59 %
+YAML               2 hrs 4 mins    █───────────────────  6.29 %
+Python             1 hr 58 mins    █───────────────────  5.98 %
+Markdown           53 mins         █───────────────────  2.69 %
+CSS                42 mins         ────────────────────  2.14 %
+JavaScript         31 mins         ────────────────────  1.61 %
+Other              26 mins         ────────────────────  1.34 %
+Text               25 mins         ────────────────────  1.27 %
+TOML               15 mins         ────────────────────  0.76 %
+HTML               13 mins         ────────────────────  0.66 %
+Docker             12 mins         ────────────────────  0.61 %
+AGS Script         11 mins         ────────────────────  0.58 %
 </code></pre>
   </div>
 <hr>
