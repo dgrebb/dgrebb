@@ -10,25 +10,25 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 32 hrs
+<pre><code class="language-markdown">Total Time: 30 hrs 36 mins
 
-Svelte             9 hrs 19 mins   ██████────────────── 28.79 %
-JSON               5 hrs 56 mins   ████──────────────── 18.36 %
-TypeScript         5 hrs 11 mins   ███───────────────── 16.02 %
-Bash               4 hrs 16 mins   ███───────────────── 13.19 %
-Makefile           1 hr 57 mins    █───────────────────  6.06 %
-YAML               1 hr 24 mins    █───────────────────  4.34 %
-Python             41 mins         ────────────────────  2.14 %
-CSS                40 mins         ────────────────────  2.10 %
-Markdown           37 mins         ────────────────────  1.95 %
-JavaScript         31 mins         ────────────────────  1.64 %
-Docker             27 mins         ────────────────────  1.43 %
-Other              22 mins         ────────────────────  1.16 %
-HTML               13 mins         ────────────────────  0.67 %
-Text               11 mins         ────────────────────  0.62 %
-AGS Script         11 mins         ────────────────────  0.59 %
-TOML               7 mins          ────────────────────  0.39 %
-Sieve              6 mins          ────────────────────  0.33 %
+Svelte             9 hrs 30 mins   ██████────────────── 30.66 %
+JSON               5 hrs 24 mins   ███───────────────── 17.42 %
+TypeScript         4 hrs 10 mins   ███───────────────── 13.45 %
+Bash               4 hrs 4 mins    ███───────────────── 13.14 %
+Markdown           2 hrs 30 mins   ██──────────────────  8.09 %
+YAML               1 hr 14 mins    █───────────────────  4.00 %
+Makefile           44 mins         ────────────────────  2.37 %
+Python             41 mins         ────────────────────  2.23 %
+CSS                38 mins         ────────────────────  2.09 %
+Docker             27 mins         ────────────────────  1.49 %
+Other              24 mins         ────────────────────  1.30 %
+JavaScript         13 mins         ────────────────────  0.74 %
+Text               11 mins         ────────────────────  0.64 %
+TOML               11 mins         ────────────────────  0.62 %
+AGS Script         11 mins         ────────────────────  0.61 %
+HTML               10 mins         ────────────────────  0.55 %
+Sieve              6 mins          ────────────────────  0.35 %
 </code></pre>
   </div>
 <hr>
