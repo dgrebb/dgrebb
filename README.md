@@ -59,7 +59,7 @@ Sieve              6 mins          ───────────────
   <details>
   <summary>Recent Pins</summary>
   <br />
-  <ul><li><a href=https://www.sveltelab.dev/?ref=madewithsvelte.com target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Hello World - SvelteLab</a></li><li><a href=https://kener.ing/samples target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Grid layout - Kener.ing</a></li><li><a href=https://svelte-put.vnphanquang.com/docs target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Docs | @svelte-put</a></li><li><a href=https://runed.dev/docs?ref=madewithsvelte.com target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Introduction - Runed</a></li><li><a href=https://motion.svelte.page/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Svelte Motion - Animation Library for Svelte</a></li></ul>
+  <ul><li><a href=https://joshblais.com/blog/migrate-password-store-gpg/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Migrate Password Store to a New GPG Key - The Universe of Joshua Blais</a></li><li><a href=https://www.sveltelab.dev/?ref=madewithsvelte.com target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Hello World - SvelteLab</a></li><li><a href=https://kener.ing/samples target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Grid layout - Kener.ing</a></li><li><a href=https://svelte-put.vnphanquang.com/docs target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Docs | @svelte-put</a></li><li><a href=https://runed.dev/docs?ref=madewithsvelte.com target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Introduction - Runed</a></li></ul>
   </details>
 <hr>
   <div align="center">
