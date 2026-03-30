@@ -10,22 +10,24 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 24 hrs 27 mins
+<pre><code class="language-markdown">Total Time: 27 hrs 27 mins
 
-Svelte             8 hrs 6 mins    ███████───────────── 32.73 %
-Bash               3 hrs 53 mins   ███───────────────── 15.72 %
-JSON               3 hrs 18 mins   ███───────────────── 13.35 %
-TypeScript         3 hrs 8 mins    ███───────────────── 12.67 %
-Markdown           2 hrs 19 mins   ██──────────────────  9.36 %
-YAML               1 hr 14 mins    █───────────────────  5.00 %
-Makefile           44 mins         █───────────────────  2.97 %
-Docker             27 mins         ────────────────────  1.86 %
-Python             26 mins         ────────────────────  1.80 %
-Other              19 mins         ────────────────────  1.29 %
-Text               11 mins         ────────────────────  0.81 %
-TOML               11 mins         ────────────────────  0.78 %
-AGS Script         11 mins         ────────────────────  0.77 %
-Sieve              6 mins          ────────────────────  0.44 %
+TypeScript         6 hrs 42 mins   █████─────────────── 23.79 %
+Svelte             5 hrs 33 mins   ████──────────────── 19.70 %
+JSON               4 hrs 18 mins   ███───────────────── 15.27 %
+Bash               4 hrs 16 mins   ███───────────────── 15.18 %
+Markdown           2 hrs 23 mins   ██──────────────────  8.52 %
+YAML               1 hr 28 mins    █───────────────────  5.24 %
+Other              42 mins         █───────────────────  2.52 %
+Makefile           36 mins         ────────────────────  2.16 %
+Docker             27 mins         ────────────────────  1.65 %
+Python             26 mins         ────────────────────  1.58 %
+Text               19 mins         ────────────────────  1.16 %
+TOML               14 mins         ────────────────────  0.85 %
+AGS Script         11 mins         ────────────────────  0.67 %
+Sieve              7 mins          ────────────────────  0.46 %
+CSS                7 mins          ────────────────────  0.42 %
+INI                6 mins          ────────────────────  0.36 %
 </code></pre>
   </div>
 <hr>
