@@ -10,21 +10,18 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 20 hrs 20 mins
+<pre><code class="language-markdown">Total Time: 14 hrs 50 mins
 
-TypeScript         6 hrs 15 mins   ██████────────────── 30.07 %
-Svelte             4 hrs 53 mins   █████─────────────── 23.49 %
-JSON               2 hrs 47 mins   ███───────────────── 13.45 %
-Bash               2 hrs 29 mins   ██────────────────── 11.93 %
-Markdown           2 hrs 8 mins    ██────────────────── 10.28 %
-YAML               44 mins         █───────────────────  3.55 %
-Other              29 mins         ────────────────────  2.34 %
-Docker             17 mins         ────────────────────  1.39 %
-TOML               8 mins          ────────────────────  0.66 %
-Sieve              7 mins          ────────────────────  0.62 %
-CSS                7 mins          ────────────────────  0.57 %
-Python             6 mins          ────────────────────  0.48 %
-INI                6 mins          ────────────────────  0.48 %
+TypeScript         4 hrs 54 mins   ██████────────────── 32.03 %
+Svelte             2 hrs 54 mins   ████──────────────── 19.01 %
+JSON               2 hrs 11 mins   ███───────────────── 14.31 %
+Markdown           2 hrs 7 mins    ███───────────────── 13.89 %
+Bash               1 hr 35 mins    ██────────────────── 10.38 %
+YAML               38 mins         █───────────────────  4.14 %
+Other              28 mins         █───────────────────  3.14 %
+TOML               8 mins          ────────────────────  0.90 %
+CSS                7 mins          ────────────────────  0.77 %
+INI                6 mins          ────────────────────  0.65 %
 </code></pre>
   </div>
 <hr>
