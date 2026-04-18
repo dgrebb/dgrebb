@@ -10,19 +10,19 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 16 hrs 27 mins
+<pre><code class="language-markdown">Total Time: 17 hrs 7 mins
 
-Markdown           4 hrs 9 mins    █████─────────────── 23.83 %
-Svelte             3 hrs 27 mins   ████──────────────── 19.89 %
-TypeScript         3 hrs 11 mins   ████──────────────── 18.35 %
-YAML               1 hr 25 mins    ██──────────────────  8.17 %
-JavaScript         1 hr 16 mins    █───────────────────  7.35 %
-JSON               1 hr 10 mins    █───────────────────  6.75 %
-Bash               58 mins         █───────────────────  5.58 %
-Other              57 mins         █───────────────────  5.49 %
-Python             22 mins         ────────────────────  2.18 %
-CSV                13 mins         ────────────────────  1.26 %
-Makefile           10 mins         ────────────────────  1.01 %
+TypeScript         4 hrs 9 mins    █████─────────────── 22.95 %
+Svelte             3 hrs 55 mins   ████──────────────── 21.68 %
+Markdown           3 hrs 49 mins   ████──────────────── 21.16 %
+Bash               1 hr 26 mins    ██──────────────────  7.93 %
+JavaScript         1 hr 16 mins    █───────────────────  7.09 %
+JSON               1 hr 4 mins     █───────────────────  5.98 %
+Other              57 mins         █───────────────────  5.34 %
+YAML               36 mins         █───────────────────  3.37 %
+Python             23 mins         ────────────────────  2.19 %
+CSV                13 mins         ────────────────────  1.21 %
+Makefile           10 mins         ────────────────────  0.97 %
 </code></pre>
   </div>
 <hr>
