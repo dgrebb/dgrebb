@@ -10,15 +10,12 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 2 hrs 20 mins
+<pre><code class="language-markdown">Total Time: 32 mins
 
-Svelte             1 hr 30 mins    ████████████──────── 61.68 %
-Markdown           15 mins         ██────────────────── 10.30 %
-JSON               9 mins          █───────────────────  6.63 %
-YAML               7 mins          █───────────────────  5.07 %
-Other              6 mins          █───────────────────  4.23 %
-Bash               5 mins          █───────────────────  3.56 %
-TOML               5 mins          █───────────────────  3.48 %
+Bash               10 mins         ██████────────────── 28.40 %
+Svelte             9 mins          █████─────────────── 24.89 %
+Other              6 mins          ███───────────────── 16.02 %
+TOML               5 mins          ███───────────────── 13.33 %
 </code></pre>
   </div>
 <hr>
