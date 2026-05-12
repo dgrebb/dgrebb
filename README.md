@@ -10,12 +10,9 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 32 mins
+<pre><code class="language-markdown">Total Time: 10 mins
 
-Bash               10 mins         ██████────────────── 28.40 %
-Svelte             9 mins          █████─────────────── 24.89 %
-Other              6 mins          ███───────────────── 16.02 %
-TOML               5 mins          ███───────────────── 13.33 %
+Bash               10 mins         ████████████████████ 100.00 %
 </code></pre>
   </div>
 <hr>
