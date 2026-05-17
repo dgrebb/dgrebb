@@ -10,9 +10,9 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 19 mins
+<pre><code class="language-markdown">Total Time: 21 mins
 
-Markdown           16 mins         █████████████████─── 86.20 %
+Markdown           18 mins         ██████████████████── 87.62 %
 </code></pre>
   </div>
 <hr>
@@ -46,7 +46,7 @@ Markdown           16 mins         ███████████████
   <details>
   <summary>Recent Pins</summary>
   <br />
-  <ul><li><a href=https://www.mcmaster.com/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">McMaster-Carr</a></li><li><a href=https://docs.flowiseai.com/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Introduction | FlowiseAI</a></li><li><a href=https://gwwar.com/debugging-hard-things-safari-edition/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Debugging Hard Things: Safari Edition</a></li><li><a href=https://joshblais.com/blog/migrate-password-store-gpg/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Migrate Password Store to a New GPG Key - The Universe of Joshua Blais</a></li><li><a href=https://www.sveltelab.dev/?ref=madewithsvelte.com target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Hello World - SvelteLab</a></li></ul>
+  <ul><li><a href=https://cogley.jp/articles/migrating-sveltekit-to-vite-8#footnote-3 target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Migrating 8 SvelteKit Sites to Vite 8 in a day: What We Learned — cogley.jp</a></li><li><a href=https://www.mcmaster.com/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">McMaster-Carr</a></li><li><a href=https://docs.flowiseai.com/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Introduction | FlowiseAI</a></li><li><a href=https://gwwar.com/debugging-hard-things-safari-edition/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Debugging Hard Things: Safari Edition</a></li><li><a href=https://joshblais.com/blog/migrate-password-store-gpg/ target="_blank" rel="noopener noreferrer" style="color: #A52A2A;">Migrate Password Store to a New GPG Key - The Universe of Joshua Blais</a></li></ul>
   </details>
 <hr>
   <div align="center">
