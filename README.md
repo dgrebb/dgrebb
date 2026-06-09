@@ -10,11 +10,11 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 42 mins
+<pre><code class="language-markdown">Total Time: 26 mins
 
-Markdown           22 mins         ███████████───────── 53.09 %
-Sieve              11 mins         ██████────────────── 28.15 %
-HTML               6 mins          ███───────────────── 15.59 %
+Sieve              11 mins         █████████─────────── 43.67 %
+Markdown           7 mins          █████─────────────── 27.24 %
+HTML               6 mins          █████─────────────── 24.56 %
 </code></pre>
   </div>
 <hr>
