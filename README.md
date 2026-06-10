@@ -10,11 +10,13 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 26 mins
+<pre><code class="language-markdown">Total Time: 1 hr 14 mins
 
-Sieve              11 mins         █████████─────────── 43.67 %
-Markdown           7 mins          █████─────────────── 27.24 %
-HTML               6 mins          █████─────────────── 24.56 %
+Markdown           32 mins         █████████─────────── 43.55 %
+Bash               13 mins         ████──────────────── 17.55 %
+Sieve              11 mins         ███───────────────── 15.44 %
+Docker             7 mins          ██────────────────── 10.20 %
+HTML               6 mins          ██──────────────────  8.68 %
 </code></pre>
   </div>
 <hr>
