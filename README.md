@@ -10,18 +10,18 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 17 hrs 38 mins
+<pre><code class="language-markdown">Total Time: 14 hrs 26 mins
 
-Svelte             7 hrs 1 min     ████████──────────── 39.86 %
-Markdown           3 hrs 53 mins   ████──────────────── 22.11 %
-TypeScript         3 hrs 2 mins    ███───────────────── 17.22 %
-JSON               1 hr 45 mins    ██────────────────── 10.00 %
-Bash               44 mins         █───────────────────  4.22 %
-Git Config         22 mins         ────────────────────  2.14 %
-Python             14 mins         ────────────────────  1.37 %
-YAML               12 mins         ────────────────────  1.15 %
-Makefile           10 mins         ────────────────────  0.97 %
-TOML               8 mins          ────────────────────  0.81 %
+Svelte             7 hrs 1 min     ██████████────────── 48.67 %
+TypeScript         3 hrs 1 min     ████──────────────── 20.97 %
+Markdown           1 hr 36 mins    ██────────────────── 11.14 %
+JSON               1 hr 12 mins    ██──────────────────  8.33 %
+Bash               34 mins         █───────────────────  3.98 %
+Python             14 mins         ────────────────────  1.68 %
+Git Config         13 mins         ────────────────────  1.57 %
+YAML               11 mins         ────────────────────  1.30 %
+Makefile           10 mins         ────────────────────  1.19 %
+TOML               8 mins          ────────────────────  0.99 %
 </code></pre>
   </div>
 <hr>
