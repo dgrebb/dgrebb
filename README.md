@@ -10,20 +10,11 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 4 hrs 39 mins
+<pre><code class="language-markdown">Total Time: 1 hr 6 mins
 
-Markdown           1 hr 45 mins    ███████───────────── 34.47 %
-TypeScript         47 mins         ███───────────────── 15.57 %
-Svelte             27 mins         ██──────────────────  9.05 %
-Other              26 mins         ██──────────────────  8.67 %
-TOML               16 mins         █───────────────────  5.50 %
-YAML               15 mins         █───────────────────  5.20 %
-Makefile           12 mins         █───────────────────  3.97 %
-Bash               11 mins         █───────────────────  3.75 %
-JSON               8 mins          █───────────────────  2.87 %
-JavaScript         7 mins          █───────────────────  2.54 %
-Go                 6 mins          ────────────────────  2.27 %
-CSS                6 mins          ────────────────────  2.21 %
+Markdown           37 mins         ███████████───────── 54.19 %
+TypeScript         11 mins         ███───────────────── 16.66 %
+JavaScript         6 mins          ██──────────────────  9.99 %
 </code></pre>
   </div>
 <hr>
