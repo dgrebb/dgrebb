@@ -12,8 +12,8 @@
   <h3>🖥️ Last Seven Days</h3>
 <pre><code class="language-markdown">Total Time: 13 mins
 
-Other              15 mins         ███████████───────── 53.62 %
-Bash               13 mins         █████████─────────── 46.38 %
+Other              17 mins         ███████████───────── 56.00 %
+Bash               13 mins         █████████─────────── 44.00 %
 </code></pre>
   </div>
 <hr>
