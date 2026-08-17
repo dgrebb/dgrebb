@@ -10,9 +10,11 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 0 secs
+<pre><code class="language-markdown">Total Time: 16 mins
 
-
+Other              6 mins          ██████────────────── 29.40 %
+JSON               6 mins          ██████────────────── 29.02 %
+Bash               6 mins          ██████────────────── 28.97 %
 </code></pre>
   </div>
 <hr>
