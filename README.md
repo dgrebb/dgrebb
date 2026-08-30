@@ -10,11 +10,10 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 2 hrs 13 mins
+<pre><code class="language-markdown">Total Time: 35 mins
 
-Markdown           1 hr 3 mins     █████████─────────── 46.36 %
-JavaScript         41 mins         ██████────────────── 30.42 %
-Bash               14 mins         ██────────────────── 10.50 %
+Markdown           19 mins         ██████████────────── 48.64 %
+Bash               14 mins         ███████───────────── 35.69 %
 </code></pre>
   </div>
 <hr>
