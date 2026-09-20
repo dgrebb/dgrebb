@@ -12,8 +12,9 @@
   <h3>🖥️ Last Seven Days</h3>
 <pre><code class="language-markdown">Total Time: 41 mins
 
-TypeScript         15 mins         ███████───────────── 34.92 %
-JSON               12 mins         ██████────────────── 29.16 %
+TypeScript         15 mins         ███████───────────── 35.13 %
+JSON               12 mins         ██████────────────── 29.34 %
+TOML               7 mins          ███───────────────── 16.53 %
 </code></pre>
   </div>
 <hr>
