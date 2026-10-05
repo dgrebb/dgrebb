@@ -10,15 +10,11 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 3 hrs 47 mins
+<pre><code class="language-markdown">Total Time: 1 hr 51 mins
 
-Markdown           1 hr 43 mins    █████████─────────── 42.60 %
-JSON               1 hr            █████─────────────── 25.01 %
-TOML               22 mins         ██──────────────────  9.45 %
-Bash               19 mins         ██──────────────────  7.89 %
-Other              14 mins         █───────────────────  6.12 %
-Git Config         10 mins         █───────────────────  4.15 %
-Text               5 mins          ────────────────────  2.24 %
+Markdown           1 hr 11 mins    █████████████─────── 64.61 %
+JSON               28 mins         █████─────────────── 25.78 %
+Bash               8 mins          █───────────────────  7.41 %
 </code></pre>
   </div>
 <hr>
