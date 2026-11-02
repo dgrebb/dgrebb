@@ -10,10 +10,6 @@
 <hr>
   <div align="center">
   <h3>🖥️ Last Seven Days</h3>
-<pre><code class="language-markdown">Total Time: 0 secs
-
-
-</code></pre>
   </div>
 <hr>
 <hr>
