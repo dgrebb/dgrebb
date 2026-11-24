@@ -1,10 +1,10 @@
-import * as fs from "fs";
-import markdownIt from "markdown-it";
+import fs from "node:fs";
+import MarkdownIt from "markdown-it";
 const featuredReposJson = JSON.parse(
-  fs.readFileSync(new URL("./featured-repos.json", import.meta.url), "utf-8")
+  fs.readFileSync(new URL("./featured-repos.json", import.meta.url), "utf-8"),
 );
 
-const md = markdownIt({
+const md = new MarkdownIt({
   html: true,
   breaks: true,
   linkify: true,
@@ -151,10 +151,8 @@ ${filteredLanguages
 
   const result = md.render(markdownText);
 
-  fs.writeFile("README.md", result, (error) => {
-    if (error) throw new Error(`Something went wrong: ${error}.`);
-    console.log(`✅ README.md file was succesfully generated.`);
-  });
+  fs.writeFileSync("README.md", result);
+  console.log(`✅ README.md file was succesfully generated.`);
 }
 
 generateMarkdown();

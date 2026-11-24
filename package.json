@@ -4,24 +4,28 @@
   "description": "dgrebb GitHub Profile",
   "main": "src/app.ts",
   "type": "module",
+  "engines": {
+    "node": ">=26",
+    "pnpm": ">=12"
+  },
+  "packageManager": "pnpm@12.23.0",
   "scripts": {
-    "dev": "PINBOARD_TOKEN=$(pass pinboard/token) WAKAPI_API_KEY=$(pass wakapi/prod/api_key) npx tsc-watch --onSuccess \"node build/app.js\"",
-    "build": "npx tsc && cp src/featured-repos.json build/featured-repos.json",
-    "build.watch": "PINBOARD_TOKEN=$(pass pinboard/token) WAKAPI_API_KEY=$(pass wakapi/prod/api_key) npx tsc-watch",
-    "start": "npm run build && node build/app.js",
+    "dev": "PINBOARD_TOKEN=$(pass pinboard/token) WAKAPI_API_KEY=$(pass wakapi/prod/api_key) tsc-watch --onSuccess \"node build/app.js\"",
+    "build": "tsc && cp src/featured-repos.json build/featured-repos.json",
+    "build.watch": "PINBOARD_TOKEN=$(pass pinboard/token) WAKAPI_API_KEY=$(pass wakapi/prod/api_key) tsc-watch",
+    "start": "pnpm build && node build/app.js",
     "gen": "node build/app.js",
-    "start.l": "npm run build && PINBOARD_TOKEN=$(pass pinboard/token) WAKAPI_API_KEY=$(pass wakapi/prod/api_key) node build/app.js",
-    "update": "npx ncu -u --dep dev",
+    "start.l": "pnpm build && PINBOARD_TOKEN=$(pass pinboard/token) WAKAPI_API_KEY=$(pass wakapi/prod/api_key) node build/app.js",
+    "update": "pnpm dlx npm-check-updates -u",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "fs": "^0.0.2",
-    "markdown-it": "^14.1.0",
-    "rss-parser": "^3.13.0",
-    "typescript": "^5.9.3"
+    "markdown-it": "^15.0.3",
+    "rss-parser": "^3.13.0"
   },
   "devDependencies": {
-    "@types/markdown-it": "^14.1.2",
-    "@types/node": "^22.18.10"
+    "@types/node": "^26.6.6",
+    "tsc-watch": "^7.2.1",
+    "typescript": "^7.0.2"
   }
 }
