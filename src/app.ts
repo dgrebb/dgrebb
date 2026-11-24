@@ -1,14 +1,13 @@
 import * as fs from "fs";
 import markdownIt from "markdown-it";
-// Load featured repos JSON using fs to avoid import assertion incompatibilities
 const featuredReposJson = JSON.parse(
   fs.readFileSync(new URL("./featured-repos.json", import.meta.url), "utf-8")
 );
 
 const md = markdownIt({
-  html: true, // Enable HTML tags in source
-  breaks: true, // Convert '\n' in paragraphs into <br>
-  linkify: true, // Autoconvert URL-like text to links
+  html: true,
+  breaks: true,
+  linkify: true,
 });
 
 import { fetchGitHubData } from "./fetch/fetchGitHubData.js";
@@ -22,31 +21,38 @@ const featuredRepos: string[] = featuredReposJson.repos;
 
 const username = "dgrebb";
 const websiteUrl = "https://www.dgrebb.com";
+const codeStatsUrl = "https://code.7ub3s.net";
 const catchafireUrl = "https://philafound.catchafire.org/profiles/732275/";
 const goodreadsUrl = "https://www.goodreads.com/user/show/4857619-dan";
 const pinboardUrl = "https://pinboard.in/u:dgrebb";
 const linkedinUrl = "https://linkedin.com/in/dgrebb";
 
+function codeStatsBadge(total?: string): string {
+  const message = encodeURIComponent(total?.trim() || "7d");
+  const src = `https://img.shields.io/static/v1?label=code%20stats&message=${message}&color=d4710d&style=for-the-badge&labelColor=1f1f1f`;
+  return `[![code stats](${src} "code.7ub3s.net")](${codeStatsUrl})`;
+}
+
 async function generateMarkdown() {
   const websiteBadge = `[![Website](https://img.shields.io/badge/website-Website?style=for-the-badge&logoColor=white&labelColor=1f1f1f&color=d4710d&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxnIGZpbGw9Im5vbmUiPjxwYXRoIGQ9Ik0yNCAwdjI0SDBWMHpNMTIuNTkzIDIzLjI1OGwtLjAxMS4wMDJsLS4wNzEuMDM1bC0uMDIuMDA0bC0uMDE0LS4wMDRsLS4wNzEtLjAzNWMtLjAxLS4wMDQtLjAxOS0uMDAxLS4wMjQuMDA1bC0uMDA0LjAxbC0uMDE3LjQyOGwuMDA1LjAybC4wMS4wMTNsLjEwNC4wNzRsLjAxNS4wMDRsLjAxMi0uMDA0bC4xMDQtLjA3NGwuMDEyLS4wMTZsLjAwNC0uMDE3bC0uMDE3LS40MjdjLS4wMDItLjAxLS4wMDktLjAxNy0uMDE3LS4wMThtLjI2NS0uMTEzbC0uMDEzLjAwMmwtLjE4NS4wOTNsLS4wMS4wMWwtLjAwMy4wMTFsLjAxOC40M2wuMDA1LjAxMmwuMDA4LjAwN2wuMjAxLjA5M2MuMDEyLjAwNC4wMjMgMCAuMDI5LS4wMDhsLjAwNC0uMDE0bC0uMDM0LS42MTRjLS4wMDMtLjAxMi0uMDEtLjAyLS4wMi0uMDIybS0uNzE1LjAwMmEuMDIzLjAyMyAwIDAgMC0uMDI3LjAwNmwtLjAwNi4wMTRsLS4wMzQuNjE0YzAgLjAxMi4wMDcuMDIuMDE3LjAyNGwuMDE1LS4wMDJsLjIwMS0uMDkzbC4wMS0uMDA4bC4wMDQtLjAxMWwuMDE3LS40M2wtLjAwMy0uMDEybC0uMDEtLjAxeiIvPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJtMTcuMzAzIDkuNTI0bDMuMTgyIDMuMTgyYTUuNSA1LjUgMCAxIDEtNy43NzggNy43NzhsLTEuMDYtMS4wNmExLjUgMS41IDAgMSAxIDIuMTItMi4xMjJsMS4wNjIgMS4wNjFhMi41IDIuNSAwIDAgMCAzLjUzNS0zLjUzNmwtMy4xODItMy4xODJhMi41IDIuNSAwIDAgMC0yLjY4MS0uNTZjLS4xNjIuMDY0LS4zMTIuMTMtLjQ1NC4xOTZsLS40NjQuMjE3Yy0uNjIuMjgtMS4wOTcuNC0xLjcwNC0uMjA2Yy0uODcyLS44NzItLjY0Ni0xLjY3Ny40MTctMi40MWE1LjUwMiA1LjUwMiAwIDAgMSA3LjAwNy42NDJtLTYuMDEtNi4wMWwxLjA2IDEuMDZhMS41IDEuNSAwIDAgMS0yLjEyIDIuMTIybC0xLjA2MS0xLjA2QTIuNSAyLjUgMCAxIDAgNS42MzYgOS4xN2wzLjE4MiAzLjE4MmEyLjUgMi41IDAgMCAwIDIuNjgxLjU2Yy4xNjItLjA2NC4zMTItLjEzLjQ1NC0uMTk2bC40NjQtLjIxN2MuNjItLjI4IDEuMDk4LS40IDEuNzA0LjIwNmMuODcyLjg3Mi42NDYgMS42NzctLjQxNyAyLjQxYTUuNTAyIDUuNTAyIDAgMCAxLTcuMDA3LS42NDJsLTMuMTgyLTMuMTgyYTUuNSA1LjUgMCAxIDEgNy43NzgtNy43NzgiLz48L2c+PC9zdmc+ "dgrebb.com")](${websiteUrl})`;
-  const pinboardBadge = `[![Catchafire](https://img.shields.io/badge/$9348-catchafire?style=for-the-badge&logoColor=white&labelColor=1f1f1f&color=d4710d&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMyIgaGVpZ2h0PSIzMyIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTggMTZjMy4zMTQgMCA2LTIgNi01LjVjMC0xLjUtLjUtNC0yLjUtNmMuMjUgMS41LTEuMjUgMi0xLjI1IDJDMTEgNCA5IC41IDYgMGMuMzU3IDIgLjUgNC0yIDZjLTEuMjUgMS0yIDIuNzI5LTIgNC41QzIgMTQgNC42ODYgMTYgOCAxNm0wLTFjLTEuNjU3IDAtMy0xLTMtMi43NWMwLS43NS4yNS0yIDEuMjUtM0M2LjEyNSAxMCA3IDEwLjUgNyAxMC41Yy0uMzc1LTEuMjUuNS0zLjI1IDItMy41Yy0uMTc5IDEtLjI1IDIgMSAzYy42MjUuNSAxIDEuMzY0IDEgMi4yNUMxMSAxNCA5LjY1NyAxNSA4IDE1Ii8+PC9zdmc+ "Catchafire Impact")](${catchafireUrl})`;
-  const catchafireBadge = `[![Pinboard](https://img.shields.io/badge/pinboard-pinboard?style=for-the-badge&logoColor=white&labelColor=1f1f1f&color=d4710d&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMyIgaGVpZ2h0PSIzMyIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTE2LjcyOSA0LjI3MWExIDEgMCAwIDAtMS40MTQtLjAwNGExLjAwNCAxLjAwNCAwIDAgMC0uMjI1LjM1NWMtLjgzMiAxLjczNi0xLjc0OCAyLjcxNS0yLjkwNCAzLjI5M0MxMC44ODkgOC41NTUgOS40IDkgNyA5YTEuMDA2IDEuMDA2IDAgMCAwLS45MjMuNjE3YTEuMDAxIDEuMDAxIDAgMCAwIC4yMTcgMS4wOWwzLjI0MyAzLjI0M0w1IDIwbDYuMDUtNC41MzdsMy4yNDIgMy4yNDJhLjk3NS45NzUgMCAwIDAgLjMyNi4yMTdjLjEyMi4wNTEuMjUyLjA3OC4zODIuMDc4cy4yNi0uMDI3LjM4Mi0uMDc4QS45OTYuOTk2IDAgMCAwIDE2IDE4YzAtMi40LjQ0NC0zLjg4OSAxLjA4My01LjE2NmMuNTc3LTEuMTU2IDEuNTU2LTIuMDcyIDMuMjkzLTIuOTA0YS45ODMuOTgzIDAgMCAwIC4zNTQtLjIyNWExIDEgMCAwIDAtLjAwNC0xLjQxNHoiLz48L3N2Zz4= "Pinboard Links")](${pinboardUrl})`;
+  const catchafireBadge = `[![Catchafire](https://img.shields.io/badge/$9348-catchafire?style=for-the-badge&logoColor=white&labelColor=1f1f1f&color=d4710d&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMyIgaGVpZ2h0PSIzMyIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTggMTZjMy4zMTQgMCA2LTIgNi01LjVjMC0xLjUtLjUtNC0yLjUtNmMuMjUgMS41LTEuMjUgMi0xLjI1IDJDMTEgNCA5IC41IDYgMGMuMzU3IDIgLjUgNC0yIDZjLTEuMjUgMS0yIDIuNzI5LTIgNC41QzIgMTQgNC42ODYgMTYgOCAxNm0wLTFjLTEuNjU3IDAtMy0xLTMtMi43NWMwLS43NS4yNS0yIDEuMjUtM0M2LjEyNSAxMCA3IDEwLjUgNyAxMC41Yy0uMzc1LTEuMjUuNS0zLjI1IDItMy41Yy0uMTc5IDEtLjI1IDIgMSAzYy42MjUuNSAxIDEuMzY0IDEgMi4yNUMxMSAxNCA5LjY1NyAxNSA4IDE1Ii8+PC9zdmc+ "Catchafire Impact")](${catchafireUrl})`;
+  const pinboardBadge = `[![Pinboard](https://img.shields.io/badge/pinboard-pinboard?style=for-the-badge&logoColor=white&labelColor=1f1f1f&color=d4710d&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMyIgaGVpZ2h0PSIzMyIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTE2LjcyOSA0LjI3MWExIDEgMCAwIDAtMS40MTQtLjAwNGExLjAwNCAxLjAwNCAwIDAgMC0uMjI1LjM1NWMtLjgzMiAxLjczNi0xLjc0OCAyLjcxNS0yLjkwNCAzLjI5M0MxMC44ODkgOC41NTUgOS40IDkgNyA5YTEuMDA2IDEuMDA2IDAgMCAwLS45MjMuNjE3YTEuMDAxIDEuMDAxIDAgMCAwIC4yMTcgMS4wOWwzLjI0MyAzLjI0M0w1IDIwbDYuMDUtNC41MzdsMy4yNDIgMy4yNDJhLjk3NS45NzUgMCAwIDAgLjMyNi4yMTdjLjEyMi4wNTEuMjUyLjA3OC4zODIuMDc4cy4yNi0uMDI3LjM4Mi0uMDc4QS45OTYuOTk2IDAgMCAwIDE2IDE4YzAtMi40LjQ0NC0zLjg4OSAxLjA4My01LjE2NmMuNTc3LTEuMTU2IDEuNTU2LTIuMDcyIDMuMjkzLTIuOTA0YS45ODMuOTgzIDAgMCAwIC4zNTQtLjIyNWExIDEgMCAwIDAtLjAwNC0xLjQxNHoiLz48L3N2Zz4= "Pinboard Links")](${pinboardUrl})`;
   const linkedinBadge = `[![LinkedIn](https://img.shields.io/badge/LinkedIn-LinkedIn?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMyIgaGVpZ2h0PSIzMyIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTIwLjQ1MiAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjQtMy4wMzctMS44NS0zLjAzNy0xLjg1MyAwLTIuMTM3IDEuNDQ1LTIuMTM3IDIuOTM5djUuNjY3SDkuMzU3di0xMS41aDMuNDE0djEuNTcxaC4wNDljLjQ3Ni0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcxIDQuMjY3IDUuNDU2djYuMzIzek02LjA5NSA3LjIyN2MtMS4xNDQgMC0yLjA2Ni0uOTI2LTIuMDY2LTIuMDY3IDAtMS4xNDQuOTIyLTIuMDY2IDIuMDY2LTIuMDY2czIuMDY2LjkyMiAyLjA2NiAyLjA2NmMwIDEuMTQxLS45MjIgMi4wNjctMi4wNjYgMi4wNjd6bTEuNzc4IDEzLjIyNUg0LjMxOXYtMTEuNWgzLjU1NHYxMS41ek0yMi4wMDIuMEg0LjAwOEMzLjAzIDAgMi4yMzYuNzk0IDIuMjM2IDEuNzcxdjIwLjQ1N2MwIC45NzcuNzk0IDEuNzcxIDEuNzcxIDEuNzcxaDE3Ljk5NGMuOTc3IDAgMS43NzEtLjc5NCAxLjc3MS0xLjc3MVYxLjc3MUMyMy43NzMuNzk0IDIyLjk3OSAwIDIyLjAwMiAweiIvPgo8L3N2Zz4K&logoColor=white&labelColor=1f1f1f&color=d4710d "LinkedIn Profile")](${linkedinUrl})`;
   const goodreadsBadge = `[![Goodreads](https://img.shields.io/badge/GoodReads-goodreads?style=for-the-badge&logo=goodreads&logoColor=white&labelColor=1f1f1f&color=d4710d "Goodreads")](${goodreadsUrl})`;
 
   const githubStatsCardDark = `[![GitHub-Stats-Card-Dark](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Stats&title_color=d4710d&text_color=FFF&icon_color=d4710d&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-dark-mode-only)](https://github.com/${username}/${username}#gh-dark-mode-only)`;
   const githubStatsCardLight = `[![GitHub-Stats-Card-Light](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&include_all_commits=true&card_width=600&custom_title=GitHub%20Stats&title_color=d4710d&text_color=474A4E&icon_color=d4710d&hide=contribs&show=reviews,prs_merged,prs_merged_percentage&theme=transparent#gh-light-mode-only)](https://github.com/${username}/${username}#gh-light-mode-only)`;
-
+  let wakaBadge = codeStatsBadge();
   let wakaSection = ``;
 
   try {
-    // Fetch coding activity data
     const codingData = await fetchCodingActivity();
+    wakaBadge = codeStatsBadge(codingData.data.human_readable_total);
 
-    // Function to generate the bar with a length based on percentage
-    // Filter out languages with less than 5 minutes of time spent
+    // Public README: languages over 5 minutes only. Authenticated Wakapi
+    // stats also include projects, editors, and hosts — those stay private.
     const filteredLanguages = codingData.data.languages.filter(
-      (lang) => lang.total_seconds >= 300
+      (lang) => lang.total_seconds >= 300,
     );
 
     // Function to generate the bar with a length based on percentage
@@ -81,7 +87,7 @@ ${filteredLanguages
 
   const markdownText = `<div align="center">\n
 
-  <span style="padding-top:10px; padding-bottom:10px;">${websiteBadge}&nbsp;&nbsp;${linkedinBadge}&nbsp;&nbsp;${goodreadsBadge}&nbsp;&nbsp;${pinboardBadge}&nbsp;&nbsp;${catchafireBadge}</span>\n
+  <span style="padding-top:10px; padding-bottom:10px;">${websiteBadge}&nbsp;&nbsp;${wakaBadge}&nbsp;&nbsp;${linkedinBadge}&nbsp;&nbsp;${goodreadsBadge}&nbsp;&nbsp;${pinboardBadge}</span>\n
 
   ---\n
 

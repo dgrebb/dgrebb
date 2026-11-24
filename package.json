@@ -5,12 +5,12 @@
   "main": "src/app.ts",
   "type": "module",
   "scripts": {
-    "dev": "PINBOARD_TOKEN=$(pass pinboard/token) WAKATIME_KEY=$(pass wakatime/api_key) npx tsc-watch --onSuccess \"node build/app.js\"",
+    "dev": "PINBOARD_TOKEN=$(pass pinboard/token) WAKAPI_API_KEY=$(pass wakapi/prod/api_key) npx tsc-watch --onSuccess \"node build/app.js\"",
     "build": "npx tsc && cp src/featured-repos.json build/featured-repos.json",
-    "build.watch": "PINBOARD_TOKEN=$(pass pinboard/token) WAKATIME_KEY=$(pass wakatime/api_key) npx tsc-watch",
+    "build.watch": "PINBOARD_TOKEN=$(pass pinboard/token) WAKAPI_API_KEY=$(pass wakapi/prod/api_key) npx tsc-watch",
     "start": "npm run build && node build/app.js",
     "gen": "node build/app.js",
-    "start.l": "npm run build && PINBOARD_TOKEN=$(pass pinboard/token) WAKATIME_KEY=$(pass wakatime/api_key) node build/app.js",
+    "start.l": "npm run build && PINBOARD_TOKEN=$(pass pinboard/token) WAKAPI_API_KEY=$(pass wakapi/prod/api_key) node build/app.js",
     "update": "npx ncu -u --dep dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
